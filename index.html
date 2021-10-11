@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox and Scrolling Animation</title>
+
+<!-- SCRIPT -->
+  <script src="jquery-3.6.0.min.js"></script>
+
+    <!-- AOS -->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="intro">
+      <h1> Life in Jungle </h1>
+      <p> Scroll down to see </p>
+    </div>
+
+    <div class = "container">
+
+      <img class= "img" src="img/1.jpg" alt="deer 1" data-aos="fade-up">
+      <p class="description"  data-aos="fade-zoom-in"> Stag is eating </p>
+
+
+      <img class= "img" src="img/2.jpg" alt="deer 1" data-aos="fade-up">
+      <p class="description"  data-aos="fade-zoom-in"> He becomes alert thinking that something is wrong </p>
+
+      <img class= "img" src="img/3.jpg" alt="deer 1" data-aos="fade-up">
+      <p class="description"  data-aos="fade-zoom-in"> Turns out he was right!</p>
+
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

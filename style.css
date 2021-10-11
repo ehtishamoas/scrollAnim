@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font: Arial, sans-serif;
+}
+.intro {
+  width: 100%;
+  height: 100vh; /*Very Important to occupy full screen*/
+  background-image: url(img/bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.intro h1{
+  font-size: 100px;
+  color: white;
+}
+.intro p{
+  font-size: 50px;
+  color: white;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: flex-start;
+}
+
+.img {
+  padding-top: 100px;
+  width: 1000px;
+  height: 800px;
+}
+
+.description{
+  color: white;
+  font-size: 40px;
+  padding-bottom: 80px;
+}
